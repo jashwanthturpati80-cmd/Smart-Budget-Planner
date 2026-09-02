@@ -1,0 +1,22 @@
+# Python
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Local database
+backend/budget.db
+*.db
+
+# React
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
