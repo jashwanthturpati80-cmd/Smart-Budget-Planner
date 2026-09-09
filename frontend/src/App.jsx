@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { BarChart3, Bot, CircleDollarSign, Plus, PiggyBank, Sparkles, Trash2, TrendingDown, TrendingUp, WalletCards } from "lucide-react";
 import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://smart-budget-planner-1.onrender.com";
 const COLORS = ["#14b8a6", "#6366f1", "#f59e0b", "#f43f5e", "#38bdf8", "#a855f7"];
 const CATEGORIES = ["Salary", "Freelance", "Food", "Housing", "Transport", "Utilities", "Health", "Education", "Entertainment", "Shopping", "Other"];
 const money = value => new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", maximumFractionDigits: 0 }).format(value || 0);
