@@ -20,13 +20,12 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
-        "https://effortless-cajeta-1430c0.netlify.app",
+        "https://smartbudgetusingai.netlify.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 @app.on_event("startup")
 def add_sample_data():
